@@ -1,0 +1,27 @@
+body {
+    padding: 1em;
+    font-size: 1.5em;
+}
+
+img {
+    width: 200px;
+}
+
+.ironman {
+    float: right;
+    margin: 1em 0 1em 1em;
+}
+
+.superman {
+    float: right;
+    clear: both;
+    margin: 1em 0 1em 1em;
+}
+.container {
+    border: 1px solid green;
+    /* overflow: hidden; */
+}
+.cleaner {
+    clear: both;
+    height: 0;
+}

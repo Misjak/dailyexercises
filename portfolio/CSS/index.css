@@ -1,0 +1,102 @@
+
+* {
+    box-sizing: border-box; 
+    font-family: 'Varela Round', sans-serif;
+    color: rgba(242, 236, 236, 0.947);
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.945);
+}
+.nav ul {
+    margin: 0;
+}
+.nav li {
+    display: inline;
+} 
+.nav a {
+    display: inline-block;
+    padding: 1em;
+    text-decoration: none;
+    
+    
+}
+.nav a:hover {
+    background-color: rgba(164, 166, 167, 0.447);
+    
+}
+.main-nav {
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: lighter;
+    border-bottom: 1px solid  rgba(164, 166, 167, 0.447);
+}
+.nav li {
+    padding: 0 5%;
+}
+.main-header {
+    background-color: rgba(0, 0, 0, .4);
+    background-image: url(../img/smoke.png);
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+.name {
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 0;
+    font-size: 3em;
+}
+.job {
+    font-size: 2em;
+    text-align: center;
+    margin-top: 0.25em;
+    padding-bottom: 3em;
+}
+.about-me {
+    font-size: 1.5em;
+    text-align: center;  
+    
+}
+.section{
+    margin: 1.5em; 
+    line-height: 1.5em; 
+    text-align: justify;
+  
+}
+.container {
+    
+    max-width: 750px;
+    margin: 4em auto; 
+    padding: 0 1.5em;
+}
+.img {
+    float: left;
+    height: 150px;
+    height: 150px;
+    margin: 15px;
+    border-radius: 50%;
+}
+.main-footer {
+    padding-top: 5em;
+    border-top: 1px solid rgba(164, 166, 167, 0.447) ;
+    padding: 0.5em 10em;
+}
+
+.main-footer ul{
+    display: flex;
+    list-style: none;
+}
+
+#logo {
+    border-radius: 10%;
+}
+.main-footer li {
+    padding: 0.5em 0.5em;
+    margin: auto;
+    
+}
+.main-footer li:hover {
+    background-color: rgba(164, 166, 167, 0.447);
+}

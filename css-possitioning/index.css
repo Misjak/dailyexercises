@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background: transparent url('img/background-grid.png') left top repeat scroll;
+    font-size: 16px;
+}
+body {
+margin: 0;
+border: 1px solid red;
+height: 80vh;
+font-size: 25px;
+
+height: 240px;
+}
+.one {
+padding-top: 5px;
+border: 10px double blue;
+margin: 2em;
+/* width: 60vw;
+height: 5em; */
+border-bottom: 1rem solid blue;
+overflow-x: hidden;
+min-height: 5em;
+max-height: 15em;
+border-radius: 10px;
+}
+
+.two {
+    border: 2px solid green;
+    background-color: green;
+    opacity: 0.5;
+    display: inline-block;
+    /* width: 15em; */
+    padding: center;
+    margin : auto;
+}
+.two > span {
+    border: 2px dotted yellow;
+    opacity: 0.5;
+    padding: 5px;
+}

@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+   
+}
+
+html {
+    background: transparent url(background-grid.png); font-family: 'The Army Of God';
+}
+
+body {
+    margin: 0;
+}
+
+.one {
+    margin: 2em auto;
+    padding: 1em;
+    width: 50vw;
+    height: 50vW;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f0b7a1+0,8c3310+50,752201+51,bf6e4e+100;Brown+Gloss */
+/* background: #f0b7a1; /* Old browsers */
+/* background: -moz-linear-gradient(top,  #f0b7a1 0%, #8c3310 50%, #752201 51%, #bf6e4e 100%); /* FF3.6-15 */
+/* background: -webkit-linear-gradient(top,  #f0b7a1 0%,#8c3310 50%,#752201 51%,#bf6e4e 100%); Chrome10-25,Safari5.1-6 */
+/* background: linear-gradient(to bottom,  #f0b7a1 0%,#8c3310 50%,#752201 51%,#bf6e4e 100%); W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+/* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0b7a1', endColorstr='#bf6e4e',GradientType=0 ); IE6-9 */ 
+
+/* background-image: url(flower-4683644_1280.jpg); */
+/* background-size: 100% auto; */
+/* background-size: cover; */
+/* background-size: contain; */
+/* background-size: 3em 3em; */
+/* background-repeat: repeat-x;
+background-repeat: repeat-y;*/
+/* background-repeat: no-repeat;  */
+
+
+/* background-attachment: scroll; */
+/* background-attachment: fixed;
+background-position: center; */
+
+background: rgba(0, 0, 0, 0.5) url(flower-4683644_1280.jpg) center/cover no-repeat scroll; 
+
+}
+@font-face {
+    font-family: 'The Army Of God';
+    src: url('TheArmyOfGod.eot');
+    src: url('TheArmyOfGod.eot?#iefix') format('embedded-opentype'),
+        url('TheArmyOfGod.woff2') format('woff2'),
+        url('TheArmyOfGod.woff') format('woff'),
+        url('TheArmyOfGod.ttf') format('truetype'),
+        url('TheArmyOfGod.svg#TheArmyOfGod') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

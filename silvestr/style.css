@@ -1,0 +1,48 @@
+body  {
+    background-image: url(background-1462755_1920.jpg) ;
+    color: #504242;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0 auto;
+}
+header {
+    margin: 0 auto;
+    background-color: aliceblue;
+    
+    padding: 10px;
+    text-align: center;
+}
+nav a{
+    
+    color: #504242;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px; 
+}
+a:hover {
+    background-color: white;
+}
+
+
+.window {
+    margin: 0 auto;
+    margin-top: 50px;
+    height: 500px;
+    width: 900px;
+    
+}
+
+.info .img {
+    display: inline-block;
+    
+}
+.img {
+    float: right;
+    padding: 80px 40px;
+}
+
+.info {
+    width: 40%;
+    padding: 80px 40px;
+    font-size: 1.5rem;
+    text-align: center;
+}

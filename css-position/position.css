@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    font-size: 25px;
+}
+
+html {
+    background: transparent url('background-grid.png') left top repeat scroll;
+}
+body {
+    margin: 0;
+}
+.one {
+    /* position: relative; */
+    border: 1px solid blue;
+    top: 10px;
+    left: 15px;
+}
+
+.two {
+    width: 2Oem;
+    height: 20em;
+    border: 2px solid red;
+    /* position: relative; */
+}
+
+.three {
+    border: 1px solid orange;
+    bottom: 100px;
+    right: 100px;
+    position: absolute;
+}
+
+.four {
+    border: 1px solid green;
+    bottom: 100px;
+    right: 100px;
+    position: absolute;
+    z-index: 100; 
+}
+
+.five {
+    border: 1px solid black;
+    position: fixed;
+    top: 100px;
+    right: 0;
+}
