@@ -1,27 +1,35 @@
+  
 document.addEventListener('DOMContentLoaded', () => {
+  const app = document.querySelector('#app');
+
+  const progress1 = new ProgressBar(0, 'red', 17);
+  const progress2 = new ProgressBar(0, 'green', 17);
+  const progress3 = new ProgressBar(0, 'blue', 17);
   
-  const counter = document.querySelector('#counter');
-  const minus = document.querySelector ('#minus');
-  const plus = document.querySelector ('#plus');
-  let knob = document.querySelector('#knob');
-  let boo = 4;
+  progress1.mount(app);
+  progress2.mount(app);
+  progress3.mount(app);
 
-  const update = () => {
-    counter.textContent = boo;
-    knob.style.width = `${boo * 10}%`;
-  }
+  const mixIt = document.querySelector('.mix');
+  const box = document.createElement('div');
+ 
+  box.className = 'box';
+  app.appendChild(box);
 
-  minus.addEventListener ('click', () => {
-    if (boo > 0) {
-    boo -= 1 ;
-    update();
-    }
+  mixIt.addEventListener ('click', () => {
+  box.style.backgroundColor = `rgb(${progress1.value * 15}, ${progress2.value * 15}, ${progress1.value * 15})`; 
   })
-  
-  plus.addEventListener ('click', () => {
-    if (boo < 10) {
-    boo += 1 ;
-    update();
-  }})
+})
 
-});
+
+
+// });
+
+// const btn = document.querySelector('button');
+// // const box = document.querySelector('#box');
+// const box = document.createElement('div');
+// box.className = 'box';
+// app.appendChild(box);
+// btn.addEventListener('click', () => {
+//     box.style.backgroundColor = `rgb(${progress1.value * 15 }, ${progress2.value * 15}, ${progress3.value * 15} )`;
+//   })
